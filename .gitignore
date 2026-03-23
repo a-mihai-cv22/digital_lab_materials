@@ -43,7 +43,7 @@
 *.cache
 *.hw
 *.ioplanning
-*ip_user_file
+*ip_user_files
 *.runs
 *.sim
 
