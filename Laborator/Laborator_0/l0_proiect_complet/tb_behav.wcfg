@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.658 ns"></ZoomStartTime>
+      <ZoomEndTime time="11.869 ns"></ZoomEndTime>
+      <Cursor1Time time="10.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="661"></NameColumnWidth>
+      <ValueColumnWidth column_width="329"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="group11" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/tb_w" type="logic">
+         <obj_property name="ElementShortName">tb_w</obj_property>
+         <obj_property name="ObjectShortName">tb_w</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb_x" type="logic">
+         <obj_property name="ElementShortName">tb_x</obj_property>
+         <obj_property name="ObjectShortName">tb_x</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb_y" type="logic">
+         <obj_property name="ElementShortName">tb_y</obj_property>
+         <obj_property name="ObjectShortName">tb_y</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb_z" type="logic">
+         <obj_property name="ElementShortName">tb_z</obj_property>
+         <obj_property name="ObjectShortName">tb_z</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/tb_out" type="logic">
+         <obj_property name="ElementShortName">tb_out</obj_property>
+         <obj_property name="ObjectShortName">tb_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">dut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/w" type="logic">
+         <obj_property name="ElementShortName">w</obj_property>
+         <obj_property name="ObjectShortName">w</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/x" type="logic">
+         <obj_property name="ElementShortName">x</obj_property>
+         <obj_property name="ObjectShortName">x</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/y" type="logic">
+         <obj_property name="ElementShortName">y</obj_property>
+         <obj_property name="ObjectShortName">y</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/z" type="logic">
+         <obj_property name="ElementShortName">z</obj_property>
+         <obj_property name="ObjectShortName">z</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out" type="logic">
+         <obj_property name="ElementShortName">out</obj_property>
+         <obj_property name="ObjectShortName">out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fir0" type="logic">
+         <obj_property name="ElementShortName">fir0</obj_property>
+         <obj_property name="ObjectShortName">fir0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fir1" type="logic">
+         <obj_property name="ElementShortName">fir1</obj_property>
+         <obj_property name="ObjectShortName">fir1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group23" type="group">
+      <obj_property name="label">primul</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/primul/in0" type="logic">
+         <obj_property name="ElementShortName">in0</obj_property>
+         <obj_property name="ObjectShortName">in0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/primul/in1" type="logic">
+         <obj_property name="ElementShortName">in1</obj_property>
+         <obj_property name="ObjectShortName">in1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/primul/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group27" type="group">
+      <obj_property name="label">al_doilea</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/al_doilea/in0" type="logic">
+         <obj_property name="ElementShortName">in0</obj_property>
+         <obj_property name="ObjectShortName">in0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/al_doilea/in1" type="logic">
+         <obj_property name="ElementShortName">in1</obj_property>
+         <obj_property name="ObjectShortName">in1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/al_doilea/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group31" type="group">
+      <obj_property name="label">modul_final</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/modul_final/in0" type="logic">
+         <obj_property name="ElementShortName">in0</obj_property>
+         <obj_property name="ObjectShortName">in0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/modul_final/in1" type="logic">
+         <obj_property name="ElementShortName">in1</obj_property>
+         <obj_property name="ObjectShortName">in1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/modul_final/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

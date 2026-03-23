@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+*.cache
+*.hw
+*.ioplanning
+*ip_user_file
+*.runs
+*.sim
+
+
