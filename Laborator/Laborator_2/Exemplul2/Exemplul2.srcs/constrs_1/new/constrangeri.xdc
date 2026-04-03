@@ -1,0 +1,6 @@
+set_property IOSTANDARD LVCMOS33 [get_ports in0]
+set_property IOSTANDARD LVCMOS33 [get_ports in1]
+set_property IOSTANDARD LVCMOS33 [get_ports out0]
+set_property PACKAGE_PIN U2 [get_ports in1]
+set_property PACKAGE_PIN V2 [get_ports in0]
+set_property PACKAGE_PIN G1 [get_ports out0]
