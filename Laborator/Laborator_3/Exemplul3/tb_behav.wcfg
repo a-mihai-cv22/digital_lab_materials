@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="394.517 ns"></ZoomEndTime>
+      <Cursor1Time time="300.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="378"></NameColumnWidth>
+      <ValueColumnWidth column_width="210"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="group86" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/in_tb" type="array">
+         <obj_property name="ElementShortName">in_tb[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in_tb[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out_v1_tb" type="array">
+         <obj_property name="ElementShortName">out_v1_tb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v1_tb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out_v2_tb" type="array">
+         <obj_property name="ElementShortName">out_v2_tb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v2_tb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out_v3_tb" type="array">
+         <obj_property name="ElementShortName">out_v3_tb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v3_tb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out_v4_tb" type="array">
+         <obj_property name="ElementShortName">out_v4_tb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v4_tb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out_v5_tb" type="array">
+         <obj_property name="ElementShortName">out_v5_tb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v5_tb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out_v6_tb" type="array">
+         <obj_property name="ElementShortName">out_v6_tb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v6_tb[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group94" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out_v1" type="array">
+         <obj_property name="ElementShortName">out_v1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out_v2" type="array">
+         <obj_property name="ElementShortName">out_v2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v2[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out_v3" type="array">
+         <obj_property name="ElementShortName">out_v3[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v3[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out_v4" type="array">
+         <obj_property name="ElementShortName">out_v4[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v4[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out_v5" type="array">
+         <obj_property name="ElementShortName">out_v5[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v5[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out_v6" type="array">
+         <obj_property name="ElementShortName">out_v6[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out_v6[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group101" type="group">
+      <obj_property name="label">decodor_v1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/decodor_v1_0/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v1_0/out" type="array">
+         <obj_property name="ElementShortName">out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v1_0/in_0_inv" type="logic">
+         <obj_property name="ElementShortName">in_0_inv</obj_property>
+         <obj_property name="ObjectShortName">in_0_inv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v1_0/in_1_inv" type="logic">
+         <obj_property name="ElementShortName">in_1_inv</obj_property>
+         <obj_property name="ObjectShortName">in_1_inv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v1_0/in_0_nat" type="logic">
+         <obj_property name="ElementShortName">in_0_nat</obj_property>
+         <obj_property name="ObjectShortName">in_0_nat</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v1_0/in_1_nat" type="logic">
+         <obj_property name="ElementShortName">in_1_nat</obj_property>
+         <obj_property name="ObjectShortName">in_1_nat</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group104" type="group">
+      <obj_property name="label">decodor_v2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/decodor_v2_0/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v2_0/out" type="array">
+         <obj_property name="ElementShortName">out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group107" type="group">
+      <obj_property name="label">decodor_v3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/decodor_v3_0/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v3_0/out" type="array">
+         <obj_property name="ElementShortName">out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group110" type="group">
+      <obj_property name="label">decodor_v4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/decodor_v4_0/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v4_0/out" type="array">
+         <obj_property name="ElementShortName">out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group113" type="group">
+      <obj_property name="label">decodor_v5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/decodor_v5_0/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v5_0/out" type="array">
+         <obj_property name="ElementShortName">out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group116" type="group">
+      <obj_property name="label">decodor_v6</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/decodor_v6_0/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/decodor_v6_0/out" type="array">
+         <obj_property name="ElementShortName">out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">out[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
