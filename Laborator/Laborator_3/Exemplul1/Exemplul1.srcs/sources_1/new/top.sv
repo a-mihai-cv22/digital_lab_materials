@@ -6,15 +6,15 @@
 // produc aparitia a diferite primitive de sinteza
 module top
 (
-    input logic [1:0] in,
-    output logic [3:0] out_v1, 
+    input logic [1:0] in,   // Conectat la SW[1:0]
+    output logic [3:0] out_v1, // Conectat la LEDs[3:0]
         // fiecare varianta de decodor cu iesirea lui
         // toate ar trebui sa scoata acelasi rezultat
-    output logic [3:0] out_v2,  
-    output logic [3:0] out_v3,
-    output logic [3:0] out_v4,
-    output logic [3:0] out_v5,
-    output logic [3:0] out_v6
+    output logic [3:0] out_v2,  // Conectat la LEDs[7:4]
+    output logic [3:0] out_v3,  // Conectat la LEDs[11:8]
+    output logic [3:0] out_v4,  // Conectat la LEDs[15:12]
+    output logic [3:0] out_v5,  // Conectat la 7Seg display left, seg D,C,B,A (3,2,1,0)
+    output logic [3:0] out_v6   // Conectat la 7Seg display right, seg D,C,B,A (3,2,1,0)
 );
 
 decodor_v1 decodor_v1_0

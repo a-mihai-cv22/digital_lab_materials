@@ -1,8 +1,8 @@
 module nand_gate
     (
-        input   logic   in0,
-        input   logic   in1,
-        output  logic   out0
+        input   logic   in0,    // Conectat la SW[0]
+        input   logic   in1,    // Conectat la SW[1]
+        output  logic   out0    // Conectat la LED[]0]
     );
     
 logic w0;   //se declara un fir intern de legatura pe 1 bit 
