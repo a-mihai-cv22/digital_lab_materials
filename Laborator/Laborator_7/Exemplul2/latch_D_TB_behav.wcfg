@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="latch_D_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="latch_D_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="17.081 ns"></ZoomEndTime>
+      <Cursor1Time time="10.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="587"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/latch_D_TB/D_tb" type="logic">
+         <obj_property name="ElementShortName">D_tb</obj_property>
+         <obj_property name="ObjectShortName">D_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/latch_D_TB/E_tb" type="logic">
+         <obj_property name="ElementShortName">E_tb</obj_property>
+         <obj_property name="ObjectShortName">E_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/latch_D_TB/Q_tb" type="logic">
+         <obj_property name="ElementShortName">Q_tb</obj_property>
+         <obj_property name="ObjectShortName">Q_tb</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">latch_D</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/latch_D_TB/DUT1/D" type="logic">
+         <obj_property name="ElementShortName">D</obj_property>
+         <obj_property name="ObjectShortName">D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/latch_D_TB/DUT1/E" type="logic">
+         <obj_property name="ElementShortName">E</obj_property>
+         <obj_property name="ObjectShortName">E</obj_property>
+      </wvobject>
+      <wvobject fp_name="/latch_D_TB/DUT1/Q" type="logic">
+         <obj_property name="ElementShortName">Q</obj_property>
+         <obj_property name="ObjectShortName">Q</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

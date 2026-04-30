@@ -1,0 +1,7 @@
+set_property PACKAGE_PIN V2 [get_ports data_in]
+set_property PACKAGE_PIN J2 [get_ports clock]
+set_property PACKAGE_PIN G1 [get_ports data_out]
+set_property IOSTANDARD LVCMOS33 [get_ports clock]
+set_property IOSTANDARD LVCMOS33 [get_ports data_in]
+set_property IOSTANDARD LVCMOS33 [get_ports data_out]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clock_IBUF]

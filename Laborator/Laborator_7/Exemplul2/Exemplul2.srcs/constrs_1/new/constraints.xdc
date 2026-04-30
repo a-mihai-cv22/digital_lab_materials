@@ -1,0 +1,7 @@
+set_property IOSTANDARD LVCMOS33 [get_ports D]
+set_property IOSTANDARD LVCMOS33 [get_ports E]
+set_property IOSTANDARD LVCMOS33 [get_ports Q]
+set_property PACKAGE_PIN V2 [get_ports D]
+set_property PACKAGE_PIN J2 [get_ports E]
+set_property PACKAGE_PIN G1 [get_ports Q]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets E_IBUF]
