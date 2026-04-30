@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="register_8b_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="register_8b_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="302.801 ns"></ZoomEndTime>
+      <Cursor1Time time="175.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="587"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group6" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/register_8b_tb/clock_tb" type="logic">
+         <obj_property name="ElementShortName">clock_tb</obj_property>
+         <obj_property name="ObjectShortName">clock_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/reset_tb" type="logic">
+         <obj_property name="ElementShortName">reset_tb</obj_property>
+         <obj_property name="ObjectShortName">reset_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/we_tb" type="logic">
+         <obj_property name="ElementShortName">we_tb</obj_property>
+         <obj_property name="ObjectShortName">we_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/data_in_tb" type="array">
+         <obj_property name="ElementShortName">data_in_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in_tb[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/data_out_tb" type="array">
+         <obj_property name="ElementShortName">data_out_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_tb[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">reg_8b</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/register_8b_tb/dut/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/dut/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/dut/we" type="logic">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/dut/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/register_8b_tb/dut/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

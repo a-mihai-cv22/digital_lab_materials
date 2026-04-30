@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ram64x8_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ram64x8_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="337.601 ns"></ZoomEndTime>
+      <Cursor1Time time="80.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="587"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/ram64x8_tb/clock_tb" type="logic">
+         <obj_property name="ElementShortName">clock_tb</obj_property>
+         <obj_property name="ObjectShortName">clock_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/addr_read_tb" type="array">
+         <obj_property name="ElementShortName">addr_read_tb[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_read_tb[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/data_read_tb" type="array">
+         <obj_property name="ElementShortName">data_read_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_tb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/we_tb" type="logic">
+         <obj_property name="ElementShortName">we_tb</obj_property>
+         <obj_property name="ObjectShortName">we_tb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/addr_write_tb" type="array">
+         <obj_property name="ElementShortName">addr_write_tb[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_write_tb[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/data_write_tb" type="array">
+         <obj_property name="ElementShortName">data_write_tb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_tb[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group27" type="group">
+      <obj_property name="label">ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/ram64x8_tb/dut/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/dut/addr_read" type="array">
+         <obj_property name="ElementShortName">addr_read[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_read[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/dut/data_read" type="array">
+         <obj_property name="ElementShortName">data_read[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/dut/we" type="logic">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/dut/addr_write" type="array">
+         <obj_property name="ElementShortName">addr_write[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_write[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/dut/data_write" type="array">
+         <obj_property name="ElementShortName">data_write[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ram64x8_tb/dut/memorie_efectiva" type="array">
+         <obj_property name="ElementShortName">memorie_efectiva[0:63][7:0]</obj_property>
+         <obj_property name="ObjectShortName">memorie_efectiva[0:63][7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
