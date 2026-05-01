@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="106.701 ns"></ZoomEndTime>
+      <Cursor1Time time="22.300 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="524"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="group159" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/data0" type="array">
+         <obj_property name="ElementShortName">data0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/data1" type="array">
+         <obj_property name="ElementShortName">data1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/instr_in" type="array">
+         <obj_property name="ElementShortName">instr_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/ok" type="logic">
+         <obj_property name="ElementShortName">ok</obj_property>
+         <obj_property name="ObjectShortName">ok</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/of" type="logic">
+         <obj_property name="ElementShortName">of</obj_property>
+         <obj_property name="ObjectShortName">of</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out0" type="array">
+         <obj_property name="ElementShortName">out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out1" type="array">
+         <obj_property name="ElementShortName">out1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out2" type="array">
+         <obj_property name="ElementShortName">out2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out2[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out3" type="array">
+         <obj_property name="ElementShortName">out3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out3[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/instr_out" type="array">
+         <obj_property name="ElementShortName">instr_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group176" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/data0" type="array">
+         <obj_property name="ElementShortName">data0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/data1" type="array">
+         <obj_property name="ElementShortName">data1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/instr_in" type="array">
+         <obj_property name="ElementShortName">instr_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ok" type="logic">
+         <obj_property name="ElementShortName">ok</obj_property>
+         <obj_property name="ObjectShortName">ok</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/of" type="logic">
+         <obj_property name="ElementShortName">of</obj_property>
+         <obj_property name="ObjectShortName">of</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out0" type="array">
+         <obj_property name="ElementShortName">out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out1" type="array">
+         <obj_property name="ElementShortName">out1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out2" type="array">
+         <obj_property name="ElementShortName">out2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out2[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out3" type="array">
+         <obj_property name="ElementShortName">out3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out3[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/instr_out" type="array">
+         <obj_property name="ElementShortName">instr_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0_X_ok" type="logic">
+         <obj_property name="ElementShortName">add_block_0_X_ok</obj_property>
+         <obj_property name="ObjectShortName">add_block_0_X_ok</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0_X_ok" type="logic">
+         <obj_property name="ElementShortName">and_block_0_X_ok</obj_property>
+         <obj_property name="ObjectShortName">and_block_0_X_ok</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0_X_out" type="array">
+         <obj_property name="ElementShortName">add_block_0_X_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">add_block_0_X_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0_X_out" type="array">
+         <obj_property name="ElementShortName">and_block_0_X_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">and_block_0_X_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/special_0_X_out" type="array">
+         <obj_property name="ElementShortName">special_0_X_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">special_0_X_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux4_0_X_out" type="array">
+         <obj_property name="ElementShortName">mux4_0_X_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">mux4_0_X_out[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider207">
+      <obj_property name="label">add_block</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group185" type="group">
+      <obj_property name="label">add_block</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/add_block_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/ok" type="logic">
+         <obj_property name="ElementShortName">ok</obj_property>
+         <obj_property name="ObjectShortName">ok</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/of" type="logic">
+         <obj_property name="ElementShortName">of</obj_property>
+         <obj_property name="ObjectShortName">of</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/add_0_X_out0" type="array">
+         <obj_property name="ElementShortName">add_0_X_out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">add_0_X_out0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/rom_add_0_X_data" type="array">
+         <obj_property name="ElementShortName">rom_add_0_X_data[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_add_0_X_data[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group189" type="group">
+      <obj_property name="label">add</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/add_block_0/add_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/add_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/add_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group192" type="group">
+      <obj_property name="label">rom_add</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/add_block_0/rom_add_0/addr" type="array">
+         <obj_property name="ElementShortName">addr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/rom_add_0/data" type="array">
+         <obj_property name="ElementShortName">data[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group196" type="group">
+      <obj_property name="label">comp_eq</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/add_block_0/comp_eq_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/comp_eq_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/comp_eq_0/out" type="logic">
+         <obj_property name="ElementShortName">out</obj_property>
+         <obj_property name="ObjectShortName">out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group201" type="group">
+      <obj_property name="label">mux2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/add_block_0/mux2_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/mux2_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/mux2_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/mux2_0/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group206" type="group">
+      <obj_property name="label">overflow_compute</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/add_block_0/overflow_compute_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/overflow_compute_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/overflow_compute_0/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/add_block_0/overflow_compute_0/internal_sum" type="array">
+         <obj_property name="ElementShortName">internal_sum[2:0]</obj_property>
+         <obj_property name="ObjectShortName">internal_sum[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider208">
+      <obj_property name="label">and_block</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group216" type="group">
+      <obj_property name="label">and_block</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/and_block_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/ok" type="logic">
+         <obj_property name="ElementShortName">ok</obj_property>
+         <obj_property name="ObjectShortName">ok</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/and_gate_0_X_out0" type="array">
+         <obj_property name="ElementShortName">and_gate_0_X_out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">and_gate_0_X_out0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/rom_and_0_X_data" type="array">
+         <obj_property name="ElementShortName">rom_and_0_X_data[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_and_0_X_data[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group220" type="group">
+      <obj_property name="label">and_gate</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/and_block_0/and_gate_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/and_gate_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/and_gate_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group223" type="group">
+      <obj_property name="label">rom_and</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/and_block_0/rom_and_0/addr" type="array">
+         <obj_property name="ElementShortName">addr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/rom_and_0/data" type="array">
+         <obj_property name="ElementShortName">data[1:0]</obj_property>
+         <obj_property name="ObjectShortName">data[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group227" type="group">
+      <obj_property name="label">comp_eq</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/and_block_0/comp_eq_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/comp_eq_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/comp_eq_0/out" type="logic">
+         <obj_property name="ElementShortName">out</obj_property>
+         <obj_property name="ObjectShortName">out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group232" type="group">
+      <obj_property name="label">mux2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/and_block_0/mux2_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/mux2_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/mux2_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/and_block_0/mux2_0/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider233">
+      <obj_property name="label">top_level_modules</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group237" type="group">
+      <obj_property name="label">special</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/special_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/special_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/special_0/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group244" type="group">
+      <obj_property name="label">mux4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/mux4_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux4_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux4_0/in2" type="array">
+         <obj_property name="ElementShortName">in2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in2[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux4_0/in3" type="array">
+         <obj_property name="ElementShortName">in3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in3[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux4_0/sel" type="array">
+         <obj_property name="ElementShortName">sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux4_0/out" type="array">
+         <obj_property name="ElementShortName">out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group251" type="group">
+      <obj_property name="label">demux4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/demux4_0/in" type="array">
+         <obj_property name="ElementShortName">in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux4_0/sel" type="array">
+         <obj_property name="ElementShortName">sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux4_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux4_0/out1" type="array">
+         <obj_property name="ElementShortName">out1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux4_0/out2" type="array">
+         <obj_property name="ElementShortName">out2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out2[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux4_0/out3" type="array">
+         <obj_property name="ElementShortName">out3[1:0]</obj_property>
+         <obj_property name="ObjectShortName">out3[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

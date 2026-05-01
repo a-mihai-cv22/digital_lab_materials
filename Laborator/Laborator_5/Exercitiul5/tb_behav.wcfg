@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="177.773 ns"></ZoomEndTime>
+      <Cursor1Time time="61.533 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="514"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="group368" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/in_litera" type="array">
+         <obj_property name="ElementShortName">in_litera[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_litera[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/offset" type="array">
+         <obj_property name="ElementShortName">offset[3:0]</obj_property>
+         <obj_property name="ObjectShortName">offset[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/out_litera" type="array">
+         <obj_property name="ElementShortName">out_litera[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out_litera[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group377" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/in_litera" type="array">
+         <obj_property name="ElementShortName">in_litera[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_litera[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/offset" type="array">
+         <obj_property name="ElementShortName">offset[3:0]</obj_property>
+         <obj_property name="ObjectShortName">offset[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/out_litera" type="array">
+         <obj_property name="ElementShortName">out_litera[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out_litera[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0_X_out" type="array">
+         <obj_property name="ElementShortName">preprocesare_0_X_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">preprocesare_0_X_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sum_8b_0_out0" type="array">
+         <obj_property name="ElementShortName">sum_8b_0_out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_8b_0_out0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sub_8b_0_X_out0" type="array">
+         <obj_property name="ElementShortName">sub_8b_0_X_out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sub_8b_0_X_out0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/comp_greater_0_X_out0" type="logic">
+         <obj_property name="ElementShortName">comp_greater_0_X_out0</obj_property>
+         <obj_property name="ObjectShortName">comp_greater_0_X_out0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux2_8b_0_X_out0" type="array">
+         <obj_property name="ElementShortName">mux2_8b_0_X_out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mux2_8b_0_X_out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider391">
+      <obj_property name="label">preprocesare</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group385" type="group">
+      <obj_property name="label">preprocesare</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/preprocesare_0/in_litera" type="array">
+         <obj_property name="ElementShortName">in_litera[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_litera[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/out" type="array">
+         <obj_property name="ElementShortName">out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/comp_greater_0_X_out" type="logic">
+         <obj_property name="ElementShortName">comp_greater_0_X_out</obj_property>
+         <obj_property name="ObjectShortName">comp_greater_0_X_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/demux2_8b_0_X_out0" type="array">
+         <obj_property name="ElementShortName">demux2_8b_0_X_out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">demux2_8b_0_X_out0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/demux2_8b_0_X_out1" type="array">
+         <obj_property name="ElementShortName">demux2_8b_0_X_out1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">demux2_8b_0_X_out1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_0_X_out0" type="array">
+         <obj_property name="ElementShortName">sub_8b_0_X_out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sub_8b_0_X_out0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_1_X_out0" type="array">
+         <obj_property name="ElementShortName">sub_8b_1_X_out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sub_8b_1_X_out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group389" type="group">
+      <obj_property name="label">comp_greater</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/preprocesare_0/comp_greater_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/comp_greater_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/comp_greater_0/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group396" type="group">
+      <obj_property name="label">demux2_8b</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/preprocesare_0/demux2_8b_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/demux2_8b_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/demux2_8b_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/demux2_8b_0/out1" type="array">
+         <obj_property name="ElementShortName">out1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out1[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group400" type="group">
+      <obj_property name="label">sub_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group404" type="group">
+      <obj_property name="label">sub_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_1/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_1/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/sub_8b_1/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group409" type="group">
+      <obj_property name="label">mux2_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/preprocesare_0/mux2_8b_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/mux2_8b_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/mux2_8b_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/preprocesare_0/mux2_8b_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider390">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group413" type="group">
+      <obj_property name="label">sum_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/sum_8b_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sum_8b_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sum_8b_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group417" type="group">
+      <obj_property name="label">sub_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/sub_8b_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sub_8b_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sub_8b_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group421" type="group">
+      <obj_property name="label">comp_greater</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/comp_greater_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/comp_greater_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/comp_greater_0/out0" type="logic">
+         <obj_property name="ElementShortName">out0</obj_property>
+         <obj_property name="ObjectShortName">out0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group426" type="group">
+      <obj_property name="label">mux2_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/mux2_8b_0/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux2_8b_0/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux2_8b_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/mux2_8b_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group430" type="group">
+      <obj_property name="label">sum_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/sum_8b_1/in0" type="array">
+         <obj_property name="ElementShortName">in0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sum_8b_1/in1" type="array">
+         <obj_property name="ElementShortName">in1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/sum_8b_1/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
