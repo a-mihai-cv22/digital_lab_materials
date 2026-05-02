@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="355.801 ns"></ZoomEndTime>
+      <Cursor1Time time="235.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="524"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="group8" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/check" type="logic">
+         <obj_property name="ElementShortName">check</obj_property>
+         <obj_property name="ObjectShortName">check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/vowels" type="array">
+         <obj_property name="ElementShortName">vowels[7:0]</obj_property>
+         <obj_property name="ObjectShortName">vowels[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/consonants" type="array">
+         <obj_property name="ElementShortName">consonants[7:0]</obj_property>
+         <obj_property name="ObjectShortName">consonants[7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/check" type="logic">
+         <obj_property name="ElementShortName">check</obj_property>
+         <obj_property name="ObjectShortName">check</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowels" type="array">
+         <obj_property name="ElementShortName">vowels[7:0]</obj_property>
+         <obj_property name="ObjectShortName">vowels[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/consonants" type="array">
+         <obj_property name="ElementShortName">consonants[7:0]</obj_property>
+         <obj_property name="ObjectShortName">consonants[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/data_read0" type="array">
+         <obj_property name="ElementShortName">data_read0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/data_read1" type="array">
+         <obj_property name="ElementShortName">data_read1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_6b_0_X_out" type="array">
+         <obj_property name="ElementShortName">counter_6b_0_X_out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_6b_0_X_out[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/reg_6b_0_X_out" type="array">
+         <obj_property name="ElementShortName">reg_6b_0_X_out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_6b_0_X_out[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0_X_is_vowel" type="logic">
+         <obj_property name="ElementShortName">vowel_checker_struct_0_X_is_vowel</obj_property>
+         <obj_property name="ObjectShortName">vowel_checker_struct_0_X_is_vowel</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">counter_6b</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/counter_6b_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_6b_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_6b_0/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_6b_0/out" type="array">
+         <obj_property name="ElementShortName">out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">out[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group31" type="group">
+      <obj_property name="label">reg_6b</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/reg_6b_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/reg_6b_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/reg_6b_0/in" type="array">
+         <obj_property name="ElementShortName">in[5:0]</obj_property>
+         <obj_property name="ObjectShortName">in[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/reg_6b_0/out" type="array">
+         <obj_property name="ElementShortName">out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">out[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">ram_consonants</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/ram64x8b_consonants/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_consonants/addr" type="array">
+         <obj_property name="ElementShortName">addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_consonants/w_en" type="logic">
+         <obj_property name="ElementShortName">w_en</obj_property>
+         <obj_property name="ObjectShortName">w_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_consonants/w_data" type="array">
+         <obj_property name="ElementShortName">w_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_consonants/r_data" type="array">
+         <obj_property name="ElementShortName">r_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_consonants/memorie_efectiva" type="array">
+         <obj_property name="ElementShortName">memorie_efectiva[0:63][7:0]</obj_property>
+         <obj_property name="ObjectShortName">memorie_efectiva[0:63][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">ram_vowels</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/ram64x8b_vowels/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_vowels/addr" type="array">
+         <obj_property name="ElementShortName">addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_vowels/w_en" type="logic">
+         <obj_property name="ElementShortName">w_en</obj_property>
+         <obj_property name="ObjectShortName">w_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_vowels/w_data" type="array">
+         <obj_property name="ElementShortName">w_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">w_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_vowels/r_data" type="array">
+         <obj_property name="ElementShortName">r_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/ram64x8b_vowels/memorie_efectiva" type="array">
+         <obj_property name="ElementShortName">memorie_efectiva[0:63][7:0]</obj_property>
+         <obj_property name="ObjectShortName">memorie_efectiva[0:63][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group53" type="group">
+      <obj_property name="label">vowel_checker</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0/is_vowel" type="logic">
+         <obj_property name="ElementShortName">is_vowel</obj_property>
+         <obj_property name="ObjectShortName">is_vowel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0/is_a" type="logic">
+         <obj_property name="ElementShortName">is_a</obj_property>
+         <obj_property name="ObjectShortName">is_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0/is_e" type="logic">
+         <obj_property name="ElementShortName">is_e</obj_property>
+         <obj_property name="ObjectShortName">is_e</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0/is_i" type="logic">
+         <obj_property name="ElementShortName">is_i</obj_property>
+         <obj_property name="ObjectShortName">is_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0/is_o" type="logic">
+         <obj_property name="ElementShortName">is_o</obj_property>
+         <obj_property name="ObjectShortName">is_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/vowel_checker_struct_0/is_u" type="logic">
+         <obj_property name="ElementShortName">is_u</obj_property>
+         <obj_property name="ObjectShortName">is_u</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group65" type="group">
+      <obj_property name="label">pass_check_fsm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/pass_checked" type="logic">
+         <obj_property name="ElementShortName">pass_checked</obj_property>
+         <obj_property name="ObjectShortName">pass_checked</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/state_idle" type="array">
+         <obj_property name="ElementShortName">state_idle[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_idle[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/state_ok_1_litera" type="array">
+         <obj_property name="ElementShortName">state_ok_1_litera[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_ok_1_litera[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/state_ok_2_litera" type="array">
+         <obj_property name="ElementShortName">state_ok_2_litera[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_ok_2_litera[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/state_ok_3_litera" type="array">
+         <obj_property name="ElementShortName">state_ok_3_litera[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_ok_3_litera[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/pass_check_fsm_0/state_ok_4_litera" type="array">
+         <obj_property name="ElementShortName">state_ok_4_litera[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_ok_4_litera[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group70" type="group">
+      <obj_property name="label">demux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/demux_0/in" type="array">
+         <obj_property name="ElementShortName">in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux_0/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux_0/out0" type="array">
+         <obj_property name="ElementShortName">out0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/demux_0/out1" type="array">
+         <obj_property name="ElementShortName">out1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out1[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
