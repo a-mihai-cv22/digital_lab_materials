@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="9fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="115"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="group9" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/stop" type="logic">
+         <obj_property name="ElementShortName">stop</obj_property>
+         <obj_property name="ObjectShortName">stop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/stop_at_end" type="logic">
+         <obj_property name="ElementShortName">stop_at_end</obj_property>
+         <obj_property name="ObjectShortName">stop_at_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/segments" type="array">
+         <obj_property name="ElementShortName">segments[7:0]</obj_property>
+         <obj_property name="ObjectShortName">segments[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/digits" type="array">
+         <obj_property name="ElementShortName">digits[3:0]</obj_property>
+         <obj_property name="ObjectShortName">digits[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/nr_laps" type="array">
+         <obj_property name="ElementShortName">nr_laps[7:0]</obj_property>
+         <obj_property name="ObjectShortName">nr_laps[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group23" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/stop" type="logic">
+         <obj_property name="ElementShortName">stop</obj_property>
+         <obj_property name="ObjectShortName">stop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/stop_at_end" type="logic">
+         <obj_property name="ElementShortName">stop_at_end</obj_property>
+         <obj_property name="ObjectShortName">stop_at_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/segments" type="array">
+         <obj_property name="ElementShortName">segments[7:0]</obj_property>
+         <obj_property name="ObjectShortName">segments[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/digits" type="array">
+         <obj_property name="ElementShortName">digits[3:0]</obj_property>
+         <obj_property name="ObjectShortName">digits[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/nr_laps" type="array">
+         <obj_property name="ElementShortName">nr_laps[7:0]</obj_property>
+         <obj_property name="ObjectShortName">nr_laps[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0_X_reset_counters" type="logic">
+         <obj_property name="ElementShortName">fsm_0_X_reset_counters</obj_property>
+         <obj_property name="ObjectShortName">fsm_0_X_reset_counters</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_1s_0_X_pulse_at_1s" type="logic">
+         <obj_property name="ElementShortName">counter_1s_0_X_pulse_at_1s</obj_property>
+         <obj_property name="ObjectShortName">counter_1s_0_X_pulse_at_1s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_0_X_out" type="array">
+         <obj_property name="ElementShortName">counter_0_X_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_0_X_out[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/reached_end_of_lap" type="logic">
+         <obj_property name="ElementShortName">reached_end_of_lap</obj_property>
+         <obj_property name="ObjectShortName">reached_end_of_lap</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0_X_enable_counters" type="logic">
+         <obj_property name="ElementShortName">fsm_0_X_enable_counters</obj_property>
+         <obj_property name="ObjectShortName">fsm_0_X_enable_counters</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group37" type="group">
+      <obj_property name="label">fsm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/fsm_0/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/stop" type="logic">
+         <obj_property name="ElementShortName">stop</obj_property>
+         <obj_property name="ObjectShortName">stop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/stop_at_end" type="logic">
+         <obj_property name="ElementShortName">stop_at_end</obj_property>
+         <obj_property name="ObjectShortName">stop_at_end</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/current_position" type="array">
+         <obj_property name="ElementShortName">current_position[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_position[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/reset_counters" type="logic">
+         <obj_property name="ElementShortName">reset_counters</obj_property>
+         <obj_property name="ObjectShortName">reset_counters</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/enable_counters" type="logic">
+         <obj_property name="ElementShortName">enable_counters</obj_property>
+         <obj_property name="ObjectShortName">enable_counters</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/state" type="array">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/state_reset" type="array">
+         <obj_property name="ElementShortName">state_reset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_reset[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/state_idle" type="array">
+         <obj_property name="ElementShortName">state_idle[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_idle[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/state_running_forever" type="array">
+         <obj_property name="ElementShortName">state_running_forever[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_running_forever[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/fsm_0/state_run_until_end" type="array">
+         <obj_property name="ElementShortName">state_run_until_end[31:0]</obj_property>
+         <obj_property name="ObjectShortName">state_run_until_end[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group43" type="group">
+      <obj_property name="label">c_1s</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/dut/counter_1s_0/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_1s_0/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_1s_0/pulse_at_1s" type="logic">
+         <obj_property name="ElementShortName">pulse_at_1s</obj_property>
+         <obj_property name="ObjectShortName">pulse_at_1s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/counter_1s_0/counter_0_X_out" type="array">
+         <obj_property name="ElementShortName">counter_0_X_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_0_X_out[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
